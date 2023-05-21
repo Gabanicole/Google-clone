@@ -1,0 +1,89 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ color: #555;
+}
+body {
+ height: 100vh;
+ overflow: hidden;
+ font-family:Arial, sans-serif;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+nav{
+ display: flex;
+ justify-content: flex-end;
+ padding: 20px 10px;
+ height: 60px;
+}
+ul {
+ display: flex;
+ list-style: none;
+ align-items: center;
+}
+li {
+ text-align: center;
+ padding: 14px 12px;
+}
+
+a {
+ text-decoration: none;
+}
+
+li a:hover {
+ text-decoration: underline;
+}
+
+.small-text {
+ font-size: 0.9rem;
+}
+.profile{
+ margin-top: 6px;
+ vertical-align: middle;
+ width: 30px;
+ height: 30px;
+ border-radius: 50%
+}
+
+form {
+ position: relative;
+ margin-top: 30px;
+}
+.search-tab {
+ height: 50vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+input {
+ width: 580px;
+ height: 45px;
+ padding-left: 50px;
+ font-size: 1.2rem;
+ border-radius: 45px;
+ border: 2px solid #d3d3d3;
+}
+button{
+ color: black;
+ padding: 10px 20px;
+ margin-top: 1rem;
+ text-align: center;
+ font-size: 14px;
+ border: none;
+}
+.sentence{
+ font-size: 13px;
+}
+.sentence .language{
+ 
+ color: rgb(57, 136, 209);
+ cursor: pointer;
+}
+.panel{
+ display: flex;
+ justify-content: space-between;
+ padding: 6px;
+ font-size: 12px;
+}
